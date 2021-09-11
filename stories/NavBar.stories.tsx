@@ -11,7 +11,7 @@ export default {
 const Template: ComponentStory<typeof NavBar> = (args) => <NavBar {...args} />;
 
 export const Header1 = Template.bind({});
-Header1.args = { title: "Header1" };
+Header1.args = { title: "SUPER STUFF" };
 
-export const Header2 = Template.bind({});
-Header2.args = { title: "Header2" };
+// export const Header2 = Template.bind({});
+// Header2.args = { title: "Header2" };

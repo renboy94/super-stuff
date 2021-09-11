@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Nav = styled.div`
   height: 70px;
   width: 100%;
-  background: white;
+  background: ${props => props.theme.bgColor};
   position: fixed;
   top: 0;
   display: flex;
@@ -14,5 +14,5 @@ export const Nav = styled.div`
 
 export const NavbarTitle = styled.h1`
   margin-left: 10px;
-  color: #2c3e50;
+  color: ${props => props.theme.color};
 `;
